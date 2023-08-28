@@ -1,5 +1,5 @@
-# Site settings
-title:          lofingCat
+# Site settings 
+title:          loafingcat
 description:    "Rain is a simple and clean Jekyll theme with focus on content."
 url:            https://github.com/Loafingcat
 
@@ -7,7 +7,7 @@ url:            https://github.com/Loafingcat
 author:
   name:         Jun Ho Byun
   email:        bjunho0130@gmail.com
-  url:          https://inelaah.com
+  url:          
 
 # Build settings
 markdown:       kramdown
@@ -37,3 +37,4 @@ social:
   email: bjunho0130@gmail.com
   github: https://github.com/Loafingcat
   
+# what
