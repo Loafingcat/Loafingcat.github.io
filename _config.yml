@@ -1,12 +1,12 @@
 # Site settings
-title:          Rain
+title:          lofingCat
 description:    "Rain is a simple and clean Jekyll theme with focus on content."
-url:            https://github.com/inelaah/rain
+url:            https://github.com/Loafingcat
 
 # Author
 author:
-  name:         Inela Avdic Hukic
-  email:        inelaah@gmail.com
+  name:         Jun Ho Byun
+  email:        bjunho0130@gmail.com
   url:          https://inelaah.com
 
 # Build settings
@@ -34,7 +34,6 @@ related_posts_section:
 
 # Links to social media
 social:
-  email: inelaah@gmail.com
-  github: https://github.com/inelaah
-  twitter: https://twitter.com
-  linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
+  email: bjunho0130@gmail.com
+  github: https://github.com/Loafingcat
+  
