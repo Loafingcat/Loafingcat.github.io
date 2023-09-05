@@ -48,7 +48,7 @@ finish를 누르면 아래 사진처럼 커맨드창이 뜨는데, 절대 끄지
 ![KakaoTalk_20230906_012742594_17](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/fea7dc65-297e-4527-b543-9bb094e36233)
 
 
-이렇게 설치가 다 끝나고 나면 아래 사진처럼 git bash를 실행하여 ruby -v를 입력해봅시다.
+이렇게 설치가 다 끝나고 나면 git bash를 실행하여 ruby -v를 입력해봅시다.
 
 버전이 잘 뜨면 성공적으로 설치된 것입니다.
 
@@ -101,9 +101,7 @@ http://jekyllthemes.org/
 
 복사해뒀던 url을 clone url 부분에 붙여넣으시고 리포지토리의 이름은 {자신의 깃허브 이름}.github.io의 형식으로 생성하면 됩니다.
 
-리포지토리를 생성한 뒤 로컬 저장소에 방금 만든 리포지토리를 clone 해줍니다. 이후 로컬에서 소스를 수정하고 다시 배포하기 위해 
-
-필요합니다.
+리포지토리를 생성한 뒤 로컬 저장소에 방금 만든 리포지토리를 clone 해줍니다. 이후 로컬에서 소스를 수정하고 다시 배포하기 위해 필요합니다.
 
 
 
@@ -130,7 +128,9 @@ tip. git bash 커맨드창에선 shift + Ins가 붙여넣기, alt + Ins가 복�
 git bash에서 아래 명령어를 순차적으로 입력하기만 하면 됩니다.
 
 bundle install
+
 bundle update
+
 bundle install
 
 설치가 완료 되었다면 
@@ -167,7 +167,7 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 ![이미지 14](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/16f0009d-e9c2-49cc-b0fe-d4e6fb40ee30)
 
 
-세이브 이후 소스트리에 들어가보면 커밋 버튼을 클릭하여 들어가줍시다.
+세이브 이후 소스트리에 커밋 버튼을 클릭하여 들어가줍시다.
 
 ![이미지 15](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/86838388-9c6d-4850-b5bf-8696fd6103c6)
 
@@ -188,7 +188,7 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 7.배포 후 블로그 컨텐츠 추가하기
 
-이것또한 간단합니다. 게시물을 추가하기 위해서는 post 파일에 알맞은 형식으로 파일을 작성하면 됩니다.
+이것또한 간단합니다. 게시물을 추가하기 위해서는 post 폴더에 알맞은 형식으로 파일을 작성하면 됩니다.
 
 ![이미지 19](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/f434cc48-62c4-4e4f-b2b1-aa6d9498d9ae)
 
@@ -197,7 +197,7 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 ![이미지 20](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/f2087d34-518a-4149-b050-7e25bdaa3422)
 
-파일의 이름은 띄워쓰기 부분에 -(하이펀)기호를 입력 해야합니다. 
+파일의 이름은 띄어쓰기 부분에 -(하이펀)기호를 입력 해야합니다. 
 
 ![이미지 22](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/87d1410a-f1f7-4004-a2a4-2e3879615965)
 
