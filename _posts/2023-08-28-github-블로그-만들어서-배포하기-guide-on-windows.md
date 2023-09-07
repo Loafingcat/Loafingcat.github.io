@@ -9,13 +9,17 @@ author: "LoafingCat"
 0.실행환경과 필요한 툴
 
 1.jekyll에 대한 설명 및 Ruby 설치
+
 -jekyll이란
+
 -ruby 설치
 
 2.Jekyll 설치
 
 3.github repository 생성
+
 -블로그 테마 선정
+
 -리포지토리 생성
 
 4.로컬 파일 소스트리에 연결하기
@@ -273,7 +277,7 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 8.내 블로그 디자인 약간 고쳐보기
 
-sass 폴더에 들어가면 블로그 디자인을 담당하는 파일들이 있는데 base 부분을 약간 고쳐보겠습니다. 
+sass 폴더에 들어가면 블로그 디자인을 담당하는 파일들이 있는데 variable 부분을 약간 고쳐보겠습니다. 
 
 sass는 CSS의 단점을 보완하기 위해 만든 스타일시트 언어를 뜻합니다.
 
