@@ -4,6 +4,34 @@ title: "github 블로그 만들어서 배포하기 guide on windows"
 author: "LoafingCat"
 ---
 
+[목차]
+
+0.실행환경과 필요한 툴
+
+1.jekyll에 대한 설명 및 Ruby 설치
+-jekyll이란
+-ruby 설치
+
+2.Jekyll 설치
+
+3.github repository 생성
+-블로그 테마 선정
+-리포지토리 생성
+
+4.로컬 파일 소스트리에 연결하기
+
+5.로컬에서 실행하기
+
+6.로컬에서 구현한 페이지를 github.io로 배포하기
+
+7.배포 후 블로그 컨텐츠 추가하기
+
+8.내 블로그 디자인 약간 고쳐보기
+
+
+------------------------
+
+
 0.실행환경과 필요한 툴
 
 PC의 OS와 git version입니다.
@@ -15,9 +43,11 @@ PC의 OS와 git version입니다.
 기본적으로 필요한 툴로는 sourcetree, vscode, git이 있습니다. 없다면 다운을 하시고 이 글을 보시기 바랍니다.
 
 
-1. jekyll에 대한 설명 및 Ruby 설치
+1.jekyll에 대한 설명 및 Ruby 설치
 
-Jekyll?
+
+-jekyll이란
+
 
 jekyll이란 정적 웹사이트 생성기 입니다. 서버에 저장된 html, image, javascript 등의 파일이 그대로 전달된 정적인 웹페이지를 보게 됩니다.
 
@@ -26,6 +56,10 @@ Jekyll은 Github에서 개발한 툴로, 핵심 역할은 텍스트 변환 엔�
 Markdown 형식의 파일을 HTML 파일로 변환해주는 역할을 하기에, 이 문법에 익숙해지면 누구나 쉽게 이용할 수 있습니다.
 
 Jekyll 을 설치하기 위해서는 우선적으로 Ruby Installer를 설치해야 합니다.
+
+
+-ruby 설치
+
 
 https://rubyinstaller.org/downloads/ 
 
@@ -70,7 +104,10 @@ jekyll -v와 bundler -v를 입력하여 각각의 버전이 뜬다면 성공적�
 
 3.github repository 생성
 
+
 -블로그 테마 선정
+
+
 
 깃허브 블로그를 만들기 위해서는 우선적으로 자신의 깃허브 블로그를 위한 리포지토리가 필요합니다.
 
@@ -85,7 +122,10 @@ http://jekyllthemes.org/
 ![이미지 30](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/815a2b47-9ecc-4ff4-9c40-a31b3694057f)
 
 
+
 -리포지토리 생성
+
+
 
 이제 리포지토리를 만들 차례입니다. 
 
@@ -198,6 +238,10 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 이제 나의 원격 리포지토리에 로컬에서 수정한 소스가 업데이트 되고 잠시후 깃허브 페이지에도 업데이트가 적용됩니다.
 
+![이미지 39](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/c6c8a700-cfb0-4636-a149-33b90c8aaa0b)
+
+완성된 화면입니다.
+
 
 7.배포 후 블로그 컨텐츠 추가하기
 
@@ -220,6 +264,10 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 
 전부 완료하셨으면 이제 6단계에서 했던 배포를 해주시면 완성입니다.
+
+![이미지 40](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/63cca234-2fe3-41ea-a202-14a31a2af1cd)
+
+잠시 후 페이지에 들어가보면 위 사진과 같이 컨텐츠가 추가된 것을 볼 수 있습니다.
 
 
 
