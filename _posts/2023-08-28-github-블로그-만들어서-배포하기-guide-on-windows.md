@@ -15,7 +15,7 @@ PC의 OS와 git version입니다.
 기본적으로 필요한 툴로는 sourcetree, vscode, git이 있습니다. 없다면 다운을 하시고 이 글을 보시기 바랍니다.
 
 
-1. Ruby 설치
+1. jekyll에 대한 설명 및 Ruby 설치
 
 Jekyll?
 
@@ -70,6 +70,7 @@ jekyll -v와 bundler -v를 입력하여 각각의 버전이 뜬다면 성공적�
 
 3.github repository 생성
 
+-블로그 테마 선정
 
 깃허브 블로그를 만들기 위해서는 우선적으로 자신의 깃허브 블로그를 위한 리포지토리가 필요합니다.
 
@@ -84,6 +85,8 @@ http://jekyllthemes.org/
 ![이미지 30](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/815a2b47-9ecc-4ff4-9c40-a31b3694057f)
 
 
+-리포지토리 생성
+
 이제 리포지토리를 만들 차례입니다. 
 
 새로운 리포지토리를 만들기 위해서는 로그인 이후 좌측에 있는 new 버튼을 누르면 됩니다.
@@ -97,11 +100,21 @@ http://jekyllthemes.org/
 
 클릭해서 들어가면 아래 사진처럼 clone url을 입력하는 부분과 리포지토리 이름을 입력하는 페이지가 나옵니다
 
-![KakaoTalk_20230906_012742594_07](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/6d3eb544-bca6-42e0-a46c-137e30293a5c)
+![이미지 36](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/2c074d09-cd89-4112-9f63-fcb28a7d47e9)
 
-복사해뒀던 url을 clone url 부분에 붙여넣으시고 리포지토리의 이름은 {자신의 깃허브 이름}.github.io의 형식으로 생성하면 됩니다.
+
+복사해뒀던 url을 clone url 부분에 붙여넣으시고 리포지토리의 이름은 위 사진처럼 {자신의 깃허브 이름}.github.io의 형식으로 생성하면 됩니다. 빨간 경고가 뜨는 이유는 제가 이미 동일한 이름의 리포지토리를 만들어놨기 때문입니다.
 
 리포지토리를 생성한 뒤 로컬 저장소에 방금 만든 리포지토리를 clone 해줍니다. 이후 로컬에서 소스를 수정하고 다시 배포하기 위해 필요합니다.
+
+만든 리포지토리의 url을 복사해주세요
+
+![이미지 37](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/3ca4ad74-510c-40a7-afb5-0e8e5bd36d15)
+
+그리고 원하는 폴더에서 git bash를 열어주시고 git clone {복사한 url} 을 입력해준 후 엔터를 눌러주면 clone 완료입니다.
+
+![이미지 38](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/44404cc0-354c-4c93-b7d8-0184f7e7c0ca)
+
 
 
 
