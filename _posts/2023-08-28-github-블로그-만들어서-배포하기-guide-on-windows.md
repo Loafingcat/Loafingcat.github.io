@@ -281,10 +281,21 @@ sass 폴더에 들어가면 블로그 디자인을 담당하는 파일들이 있
 
 sass는 CSS의 단점을 보완하기 위해 만든 스타일시트 언어를 뜻합니다.
 
-![이미지 25](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/a27e6b14-3d5f-4b75-a482-5f04ff3d7c24)
+![이미지 52](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/bc4cdfa6-c381-4682-a4d9-829588f80b6d)
 
-![이미지 26](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/f731771f-5797-4c49-a6da-094afc2a9ea0)
+컨텐츠 제목을 바꿔보도록 하겠습니다.
 
-저는 사진 사이즈가 너무 큰것이 마음에 들지 않았기 때문에 이미지의 max 사이즈를 변경했습니다.
+![이미지 48](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/a5535f9e-8722-45a9-a050-92256bbb6a3b)
+
+검은색을 파란색으로 바꿔줍시다
+
+![이미지 49](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/7b195d56-fa7e-462e-91ff-2c3e849d107c)
+
+아래는 색상 변경 비교사진입니다.
+
+![이미지 50](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/c477b357-dd5b-4d68-97e7-a97818fdd185)
+![이미지 51](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/cff72f56-8e79-4b3a-971b-eb86ff51b507)
+
+
 
 이렇게 원하는 부분의 파일을 골라 소스를 수정한 뒤 커밋 푸쉬하여 페이지에 배포해주면 완성입니다.
