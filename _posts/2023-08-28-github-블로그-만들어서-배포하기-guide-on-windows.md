@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "github 블로그 만들어서 배포하기 guide on windows"
 author: "LoafingCat"
 ---
