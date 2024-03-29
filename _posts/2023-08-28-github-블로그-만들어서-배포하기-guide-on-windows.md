@@ -279,7 +279,18 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 # 8.블로그 테마 변경하기
 
-원하는 테마를 가진 리포지토리에 방문해서
+원하는 테마를 가진 리포지토리에 방문해서 그 리포지토리의 모든 파일을 zip 파일로 받는다.
+
+![이미지434311](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/d257ac34-b7a7-4dd5-bfae-a10b10fe9e42)
+
+압축을 풀어주고 기존 포스트가 있다면 _post를 제외한 모든 파일을 블로그 폴더에 넣어서 덮어 씌워준다.
+
+![이미지5324312](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/4d0f00b8-f0a9-4240-8485-bb3614f1e1bd)
+
+그리고 위 사진처럼 블로그 폴더 경로에서 터미널을 열어 bundle install 해주면 블로그 테마가 적용된다.
+
+![이미지111110](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/44c40e2d-0878-4485-bfbd-d4052d0319ee)
+
 
 
 
