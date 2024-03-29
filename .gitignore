@@ -1,14 +1,21 @@
-_asset_bundler_cache
-_site
+# Bundler cache
 .bundle
-.DS_Store
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-*.gem
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
+vendor
 Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache
+_site
+
+# RubyGems
+*.gem
+
+# NPM dependencies
 node_modules
-npm-debug.log*
+package-lock.json
+
+# IDE configurations
+.idea
+
+# Misc
+assets/js/dist
