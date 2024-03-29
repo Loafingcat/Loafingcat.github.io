@@ -6,39 +6,39 @@ tags: [guide]     # TAG names should always be lowercase
 authors: [LoafingCat]
 ---
 
-[목차]
+## 목차
 
-0.실행환경과 필요한 툴
+[0.실행환경과 필요한 툴](#실행환경과-필요한-툴)
 
-1.jekyll에 대한 설명 및 Ruby 설치
+[1.jekyll에 대한 설명 및 Ruby 설치](#jekyll에-대한-설명-및-Ruby-설치)
 
--jekyll이란
+[-jekyll이란](#jekyll이란)
 
--ruby 설치
+[-ruby 설치](#ruby-설치)
 
-2.Jekyll 설치
+[2.Jekyll 설치](#Jekyll-설치)
 
-3.github repository 생성
+[3.github repository 생성](#github-repository-생성)
 
--블로그 테마 선정
+[-블로그 테마 선정](#블로그-테마-선정)
 
--리포지토리 생성
+[-리포지토리 생성](#리포지토리-생성)
 
-4.로컬 파일 소스트리에 연결하기
+[4.로컬 파일 소스트리에 연결하기](#로컬-파일-소스트리에-연결하기)
 
-5.로컬에서 실행하기
+[5.로컬에서 실행하기](#로컬에서-실행하기)
 
-6.로컬에서 구현한 페이지를 github.io로 배포하기
+[6.로컬에서 구현한 페이지를 github.io로 배포하기](#로컬에서-구현한-페이지를-github.io로-배포하기)
 
-7.배포 후 블로그 컨텐츠 추가하기
+[7.배포 후 블로그 컨텐츠 추가하기](#배포-후-블로그-컨텐츠-추가하기)
 
-8.내 블로그 디자인 약간 고쳐보기
+[8.블로그 테마 변경하기](#블로그-테마-변경하기)
 
 
 ------------------------
 
 
-0.실행환경과 필요한 툴
+## 0.실행환경과 필요한 툴
 
 PC의 OS와 git version입니다.
 
@@ -49,10 +49,10 @@ PC의 OS와 git version입니다.
 기본적으로 필요한 툴로는 sourcetree, vscode, git이 있습니다. 없다면 다운을 하시고 이 글을 보시기 바랍니다.
 
 
-1.jekyll에 대한 설명 및 Ruby 설치
+## 1.jekyll에 대한 설명 및 Ruby 설치
 
 
--jekyll이란
+### -jekyll이란
 
 
 jekyll이란 정적 웹사이트 생성기 입니다. 서버에 저장된 html, image, javascript 등의 파일이 그대로 전달된 정적인 웹페이지를 보게 됩니다.
@@ -64,7 +64,7 @@ Markdown 형식의 파일을 HTML 파일로 변환해주는 역할을 하기에,
 Jekyll 을 설치하기 위해서는 우선적으로 Ruby Installer를 설치해야 합니다.
 
 
--ruby 설치
+### -ruby 설치
 
 
 https://rubyinstaller.org/downloads/ 
@@ -93,7 +93,7 @@ finish를 누르면 아래 사진처럼 커맨드창이 뜨는데, 절대 끄지
 버전이 잘 뜨면 성공적으로 설치된 것입니다.
 
 
-2.Jekyll 설치
+# 2.Jekyll 설치
 
 jekyll의 설치는 ruby에 비하면 매우 간단합니다.
 
@@ -108,10 +108,10 @@ bundler라는 것도 같이 설치해야하는데, bundler는 ruby 프로젝트�
 jekyll -v와 bundler -v를 입력하여 각각의 버전이 뜬다면 성공적으로 설치된 것입니다.
 
 
-3.github repository 생성
+# 3.github repository 생성
 
 
--블로그 테마 선정
+### -블로그 테마 선정
 
 
 
@@ -129,7 +129,7 @@ http://jekyllthemes.org/
 
 
 
--리포지토리 생성
+### -리포지토리 생성
 
 
 
@@ -168,7 +168,7 @@ tip. git bash 커맨드창에선 shift + Ins가 붙여넣기, alt + Ins가 복�
 
 
 
-4.로컬 파일 소스트리에 연결하기
+# 4.로컬 파일 소스트리에 연결하기
 
 아래 사진과 같은 방법으로 로컬에 저장된 리포지토리 파일을 연동시켜줍니다.
 
@@ -182,7 +182,7 @@ tip. git bash 커맨드창에선 shift + Ins가 붙여넣기, alt + Ins가 복�
 
 
 
-5.로컬에서 실행하기
+# 5.로컬에서 실행하기
 
 git bash에서 아래 명령어를 순차적으로 입력하기만 하면 됩니다.
 
@@ -210,7 +210,7 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 
 
-6.로컬에서 구현한 페이지를 github.io로 배포하기
+# 6.로컬에서 구현한 페이지를 github.io로 배포하기
 
 매우 간단합니다. 리포지토리에 존재하는 post 폴더에 들어가줍니다.
 
@@ -249,7 +249,7 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 완성된 화면입니다.
 
 
-7.배포 후 블로그 컨텐츠 추가하기
+# 7.배포 후 블로그 컨텐츠 추가하기
 
 이것또한 간단합니다. 게시물을 추가하기 위해서는 post 폴더에 알맞은 형식으로 파일을 작성하면 됩니다.
 
@@ -277,27 +277,9 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 
 
-8.내 블로그 디자인 약간 고쳐보기
-
-sass 폴더에 들어가면 블로그 디자인을 담당하는 파일들이 있는데 variable 부분을 약간 고쳐보겠습니다. 
-
-sass는 CSS의 단점을 보완하기 위해 만든 스타일시트 언어를 뜻합니다.
-
-![이미지 52](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/bc4cdfa6-c381-4682-a4d9-829588f80b6d)
-
-컨텐츠 제목을 바꿔보도록 하겠습니다.
-
-![이미지 48](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/a5535f9e-8722-45a9-a050-92256bbb6a3b)
-
-검은색을 파란색으로 바꿔줍시다
-
-![이미지 49](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/7b195d56-fa7e-462e-91ff-2c3e849d107c)
-
-아래는 색상 변경 비교사진입니다.
-
-![이미지 50](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/c477b357-dd5b-4d68-97e7-a97818fdd185)
-![이미지 51](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/cff72f56-8e79-4b3a-971b-eb86ff51b507)
+# 8.블로그 테마 변경하기
 
 
 
-이렇게 원하는 부분의 파일을 골라 소스를 수정한 뒤 커밋 푸쉬하여 페이지에 배포해주면 완성입니다.
+
+
