@@ -1,8 +1,8 @@
 ---
 title: compile 언어와 interpreter 언어의 차이점
 date: 2024-03-31 16:30:00 +0900
-categories: [Information]
-tags: [information]     # TAG names should always be lowercase
+categories: [Information, Dictionary]
+tags: [information, dictionary]     # TAG names should always be lowercase
 authors: [LoafingCat]
 ---
 
