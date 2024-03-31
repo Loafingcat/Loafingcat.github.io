@@ -1,0 +1,11 @@
+---
+title: Java 실행 파일
+date: 2024-03-31 16:30:00 +0900
+categories: [Information]
+tags: [information]     # TAG names should always be lowercase
+authors: [LoafingCat]
+---
+
+Java에서 실행 파일은 바로 자바 바이트코드(.class 파일)다.
+
+자바 프로그램의 컴파일 과정에서 소스 코드(.java 파일)가 자바 컴파일러에 의해 바이트코드로 변환되고, 이 바이트코드가 [JVM]()에서 실행된다.
