@@ -12,4 +12,4 @@ authors: [LoafingCat]
 
 **인터프리터 언어**는 소스 코드를 **직접 해석**하고 실행한다.
 
-Java 실행 파일
+[Java 실행 파일](https://loafingcat.github.io/posts/Java-%EC%8B%A4%ED%96%89-%ED%8C%8C%EC%9D%BC/)
