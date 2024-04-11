@@ -10,27 +10,27 @@ authors: [LoafingCat]
 
 [1. Python Virtual Environment](#1-python-virtual-environment)
 
-- [Miniconda 스크립트 파일 다운로드](#miniconda-스크립트-파일-다운로드)
+- [- Miniconda 스크립트 파일 다운로드](#miniconda-스크립트-파일-다운로드)
 
-- [스크립트 파일 실행](#스크립트-파일-실행)
+- [- 스크립트 파일 실행](#스크립트-파일-실행)
 
-- [경로 설정 후 시작](#경로-설정-후-시작)
+- [- 경로 설정 후 시작](#경로-설정-후-시작)
 
-- [conda 명령어](#conda-명령어)
+- [- conda 명령어](#conda-명령어)
 
-- [가상환경 생성](#가상환경-생성)
+- [- 가상환경 생성](#가상환경-생성)
 
 [2. Python Packages](#2-python-packages)
 
-- [설치 패키지 목록](#설치-패키지-목록)
+- [- 설치 패키지 목록](#설치-패키지-목록)
 
-- [패키지 설치하기](#패키지-설치하기)
+- [- 패키지 설치하기](#패키지-설치하기)
 
 [3. Pycharm에 가상환경 및 jupyter notebook 연동](#3-pycharm에-가상환경-및-jupyter-notebook-연동)
 
-- [파이참에 아나콘다 가상환경 설정하기](#파이참에-아나콘다-가상환경-설정하기)
+- [- 파이참에 아나콘다 가상환경 설정하기](#파이참에-아나콘다-가상환경-설정하기)
 
-- [Jupyter notebook 연동](#jupyter-notebook-연동)
+- [- Jupyter notebook 연동](#jupyter-notebook-연동)
 
 
 ------------------------------------
