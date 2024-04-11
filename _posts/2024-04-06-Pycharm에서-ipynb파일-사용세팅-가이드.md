@@ -15,7 +15,7 @@ authors: [LoafingCat]
 - [conda 명령어](#conda-명령어)
 - [가상환경 생성](#가상환경-생성)
 
-[2. Python Packages]()
+[2. Python Packages](#2-python-packages)
 - [설치 패키지 목록](#설치-패키지-목록)
 - [패키지 설치하기](#패키지-설치하기)
 
