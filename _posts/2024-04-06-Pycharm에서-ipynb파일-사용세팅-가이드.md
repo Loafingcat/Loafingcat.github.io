@@ -10,34 +10,34 @@ authors: [LoafingCat]
 
 [1. Python Virtual Environment](#1-python-virtual-environment)
 
-- [- Miniconda 스크립트 파일 다운로드](#miniconda-스크립트-파일-다운로드)
+[Miniconda 스크립트 파일 다운로드](#miniconda-스크립트-파일-다운로드)
 
-- [- 스크립트 파일 실행](#스크립트-파일-실행)
+[스크립트 파일 실행](#스크립트-파일-실행)
 
-- [- 경로 설정 후 시작](#경로-설정-후-시작)
+[경로 설정 후 시작](#경로-설정-후-시작)
 
-- [- conda 명령어](#conda-명령어)
+[conda 명령어](#conda-명령어)
 
-- [- 가상환경 생성](#가상환경-생성)
+[가상환경 생성](#가상환경-생성)
 
 [2. Python Packages](#2-python-packages)
 
-- [- 설치 패키지 목록](#설치-패키지-목록)
+[설치 패키지 목록](#설치-패키지-목록)
 
-- [- 패키지 설치하기](#패키지-설치하기)
+[패키지 설치하기](#패키지-설치하기)
 
 [3. Pycharm에 가상환경 및 jupyter notebook 연동](#3-pycharm에-가상환경-및-jupyter-notebook-연동)
 
-- [- 파이참에 아나콘다 가상환경 설정하기](#파이참에-아나콘다-가상환경-설정하기)
+[파이참에 아나콘다 가상환경 설정하기](#파이참에-아나콘다-가상환경-설정하기)
 
-- [- Jupyter notebook 연동](#jupyter-notebook-연동)
+[Jupyter notebook 연동](#jupyter-notebook-연동)
 
 
 ------------------------------------
 
 ## 1. Python Virtual Environment
 
-### - Miniconda 스크립트 파일 다운로드
+### Miniconda 스크립트 파일 다운로드
 
 아래 명령어를 터미널에 입력합니다.
 
@@ -51,7 +51,7 @@ Miniconda3 스크립트 파일을 확인할 수 있습니다.
 
 ![Miniconda3 스크립트](https://quickest-asterisk-75d.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2F3eb551e3-749f-42cf-a7d4-b2b2c7fa6332%2F59.png?table=block&id=8102abf4-e59e-47e7-a11b-a879accfc553&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=2000&userId=&cache=v2)
 
-### - 스크립트 파일 실행
+### 스크립트 파일 실행
 
 아래의 명령어를 터미널에 입력해 스크립트 파일을 실행합니다.
 
@@ -73,7 +73,7 @@ Miniconda3 스크립트 파일을 확인할 수 있습니다.
 
  중간의 --reverse &SHELL ? 이라는 질문은 no 라고 답합니다.
 
- ### - 경로 설정 후 시작
+ ### 경로 설정 후 시작
 
  아래 명령어를 순서대로 터미널에 입력합니다.
 
@@ -90,7 +90,7 @@ Miniconda3 스크립트 파일을 확인할 수 있습니다.
 
 ![적용](https://quickest-asterisk-75d.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2F32699e4e-9f98-4b76-aca2-628fe4d27963%2F65.png?table=block&id=16a7f6ca-19a4-4fab-a3a7-9abeb54c2d13&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=1420&userId=&cache=v2)
 
-### - conda 명령어
+### conda 명령어
 
 아래의 명령어들을 사용할 수 있습니다.
 
@@ -110,7 +110,7 @@ Miniconda3 스크립트 파일을 확인할 수 있습니다.
 
 ![base](https://quickest-asterisk-75d.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2F00c016b2-97c5-4736-8ade-2e651ad51393%2F67.png?table=block&id=ae36ae78-71a5-4d36-a5ca-e44ffb08c830&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=1310&userId=&cache=v2)
 
-### - 가상환경 생성
+### 가상환경 생성
 
 사용할 가상환경을 만들어 보겠습니다.
 
@@ -155,7 +155,7 @@ Proceed ([y]/n)? 물음에 “y”라고 입력합니다.
 
 ## 2. Python Packages
 
-### - 설치 패키지 목록
+### 설치 패키지 목록
 
 **웹 & 데이터 크롤링**
 
@@ -175,7 +175,7 @@ Proceed ([y]/n)? 물음에 “y”라고 입력합니다.
 - IPython Kernel
 - Jupyter Notebook
 
-### - 패키지 설치하기
+### 패키지 설치하기
 
 아래 명령어를 터미널에 입력해주세요.
 
@@ -198,7 +198,7 @@ Proceed ([y]/n)? 물음에 “y”라고 입력합니다.
 
 ## 3. Pycharm에 가상환경 및 jupyter notebook 연동
 
-### - 파이참에 아나콘다 가상환경 설정하기
+### 파이참에 아나콘다 가상환경 설정하기
 
 ![이미지 3](https://github.com/Loafingcat/JungolCodeTestLoafingcat/assets/98324619/5803b85f-4b14-4ecd-aa99-f330f0e77456)
 
@@ -208,7 +208,7 @@ file - new project - Pure Pyhon에 Add Interpreter를 눌러서 뜨는 Add Local
 
 Conda Environment에서 anaconda3를 적용해주면 가상화면 세팅이 완료됩니다.
 
-### - Jupyter notebook 연동
+### Jupyter notebook 연동
 
 ![이미지 5](https://github.com/Loafingcat/JungolCodeTestLoafingcat/assets/98324619/498e9cce-861d-4e74-8e14-2d99c8ca77aa)
 
