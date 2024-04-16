@@ -26,7 +26,7 @@ authors: [LoafingCat]
 
 아래 링크로 들어가줍니다.
 
-https://visualstudio.microsoft.com/ko/visual-cpp-build-tools/
+[Visual Studio](https://visualstudio.microsoft.com/ko/visual-cpp-build-tools/)
 
 ![이미지 333](https://github.com/Loafingcat/FirstLangChain17/assets/98324619/e9e93530-9d75-4849-9948-263ce2a0db32)
 
