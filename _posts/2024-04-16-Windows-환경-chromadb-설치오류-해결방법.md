@@ -1,6 +1,6 @@
 ---
 title: Windows 환경 chromadb 설치오류 해결방법
-date: 2024-04-12 16:30:00 +0900
+date: 2024-04-16 16:30:00 +0900
 categories: [Information]
 tags: [information]     # TAG names should always be lowercase
 authors: [LoafingCat]
