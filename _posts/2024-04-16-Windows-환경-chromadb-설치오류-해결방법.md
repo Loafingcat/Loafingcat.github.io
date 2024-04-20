@@ -74,11 +74,3 @@ authors: [LoafingCat]
     5. pip install langchain-chroma bs4
 
 중간중간 y/n 질문을 하는데 모두 y를 입력해주시면 됩니다.
-
-**만약 이 방법으로도 해결이 안되신다면 저에게 Slack DM 보내주시면 도와드리겠습니다.**
-
-
-
-
-
-
