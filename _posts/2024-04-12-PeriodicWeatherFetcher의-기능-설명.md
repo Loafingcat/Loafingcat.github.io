@@ -44,3 +44,5 @@ authors: [LoafingCat]
 각 반복에서 fetcher 객체의 fetch_weather 메서드를 호출해서 날씨 데이터를 가져옵니다. 가져온 데이터가 있으면 온도를 추출해서 weather_dict 딕셔너리의 temp에 키에 추가합니다.
 
 반복문이 종료된 후에는 weather_dict를 반환합니다.
+
++ 구현했던 기능에 대한 설명 및 프로젝트 전체에 대한 설명 추가 예정
