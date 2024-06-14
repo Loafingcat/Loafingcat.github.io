@@ -34,6 +34,8 @@ authors: [LoafingCat]
 
 [블로그 테마 변경하기](#8블로그-테마-변경하기)
 
+[주의사항](#9주의사항)
+
 
 ------------------------
 
@@ -46,7 +48,7 @@ PC의 OS와 git version입니다.
 
 ![이미지 28](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/381efbfe-1e84-4aee-aa93-89a963975601)
 
-기본적으로 필요한 툴로는 sourcetree, vscode, git이 있습니다. 없다면 다운을 하시고 이 글을 보시기 바랍니다.
+기본적으로 필요한 툴로는 vscode, git이 있습니다. 없다면 다운을 하시고 이 글을 보시기 바랍니다.
 
 
 ## 1.jekyll에 대한 설명 및 Ruby 설치
@@ -164,7 +166,8 @@ http://jekyllthemes.org/
 
 
 
-tip. git bash 커맨드창에선 shift + Ins가 붙여넣기, alt + Ins가 복사입니다.
+## tip. 
+**git bash 커맨드창에선 shift + Ins가 붙여넣기, alt + Ins가 복사입니다.**
 
 
 
@@ -186,15 +189,15 @@ tip. git bash 커맨드창에선 shift + Ins가 붙여넣기, alt + Ins가 복�
 
 git bash에서 아래 명령어를 순차적으로 입력하기만 하면 됩니다.
 
-bundle install
+    bundle install
 
-bundle update
+    bundle update
 
-bundle install
+    bundle install
 
 설치가 완료 되었다면 
 
-bundle exec jekyll serve 또는 bundle exec jekyll s
+    bundle exec jekyll serve 또는 bundle exec jekyll s
 
 명령어를 입력하여 로컬 서버를 실행하면 됩니다. 
 
@@ -287,11 +290,15 @@ bundle exec jekyll serve 또는 bundle exec jekyll s
 
 ![이미지5324312](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/4d0f00b8-f0a9-4240-8485-bb3614f1e1bd)
 
-그리고 위 사진처럼 블로그 폴더 경로에서 터미널을 열어 bundle install 해주면 블로그 테마가 적용된다.
+그리고 위 사진처럼 블로그 폴더 경로에서 git bash를 열어 **bundle install** 해주면 블로그 테마가 적용된다.
 
 ![이미지111110](https://github.com/Loafingcat/Loafingcat.github.io/assets/98324619/44c40e2d-0878-4485-bfbd-d4052d0319ee)
 
 
 
+# 9. 주의사항
 
+마크다운 파일 이름을 지정할 때 단어 사이에 전부 -(하이픈)을 붙여 줘야 합니다.
+
+![이미지 31](https://github.com/FirstBright/LangChain/assets/98324619/62ce4e94-1411-4e41-a704-a51adcdec68f)
 
