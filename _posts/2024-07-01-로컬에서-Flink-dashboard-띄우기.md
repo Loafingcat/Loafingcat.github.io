@@ -17,7 +17,7 @@ cd /usr/local/flink/conf/config.yaml
 
 bind address를 0.0.0.0으로 바꾼다.
 
-port 주석을 풀어준다.
+port 주석을 풀어주고 8081 포트를 사용한다.
 
 ## 참고
 
@@ -28,3 +28,4 @@ port 주석을 풀어준다.
 사용중이라면 아래 명령어로 포트 연결을 끊고 다시 시도한다.
 
     sudo kill -9 "PID"
+
