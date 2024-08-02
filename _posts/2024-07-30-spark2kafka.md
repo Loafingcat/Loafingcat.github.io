@@ -1,6 +1,6 @@
 ---
 title: spark에서 kafka로 steam user 정보 적재
-date: 2024-06-30 16:30:00 +0900
+date: 2024-07-30 16:30:00 +0900
 categories: [PipeLine]
 tags: [pipeline]     # TAG names should always be lowercase
 authors: [LoafingCat]
