@@ -77,3 +77,6 @@ authors: [LoafingCat]
 
     # DAG 정의
     dag_instance = steam_current_player_dag()
+
+
+usrinfo 추가예정
