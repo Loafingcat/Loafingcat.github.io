@@ -7,6 +7,8 @@ authors: [LoafingCat]
 ---
 
 
+작동 안함.. 수정필요
+
 
 apiVersion: apps/v1
 kind: Deployment
