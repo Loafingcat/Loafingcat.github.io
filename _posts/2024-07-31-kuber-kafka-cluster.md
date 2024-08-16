@@ -11,6 +11,8 @@ authors: [LoafingCat]
 
 서비스를 통일하는 방안 필요
 
+외부 애플리케이션이랑 통신이 안됨
+
 
 apiVersion: apps/v1
 kind: Deployment
