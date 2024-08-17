@@ -13,6 +13,8 @@ authors: [LoafingCat]
 
 외부 애플리케이션이랑 통신이 안됨
 
+리스너 설정이 문제가 아닌듯
+
 
 apiVersion: apps/v1
 kind: Deployment
