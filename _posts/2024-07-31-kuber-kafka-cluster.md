@@ -15,6 +15,8 @@ authors: [LoafingCat]
 
 리스너 설정이 문제가 아닌듯
 
+코드 축소
+
 
 apiVersion: apps/v1
 kind: Deployment
