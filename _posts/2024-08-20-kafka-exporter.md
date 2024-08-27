@@ -14,3 +14,5 @@ authors: [LoafingCat]
         danielqsj/kafka-exporter
 
 카프카의 매트릭 정보를 위해서는 필수적으로 있어야함
+
+매트릭 정보를 프로메테우스에 보내주고, 그걸 그라파나로 시각화 하는것이 가능하다.
