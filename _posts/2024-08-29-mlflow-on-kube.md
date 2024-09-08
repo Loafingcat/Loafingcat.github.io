@@ -47,3 +47,5 @@ authors: [LoafingCat]
 			nodePort: 30003  # 원하는 포트 번호 (30000~32767 사이)
 		selector:
 			app: mlflow
+
+helm chart가 아닌 docker image를 이용한 yaml파일을 통해 직접적으로 설치
